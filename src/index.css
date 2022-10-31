@@ -6,3 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.title {
+  font-family: Segoe UI;
+  font-size: 36px;
+  color: darkblue;
+  padding: 20px 20px;
+}
