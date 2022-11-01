@@ -1,4 +1,4 @@
-import { Tasks } from "../features/Task/types";
+import { Tasks } from "../../../redux/features/Task/types";
 
 const todoList: Tasks[] = [
   { id: 1, name: "clean", done: true },

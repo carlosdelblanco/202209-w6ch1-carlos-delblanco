@@ -1,4 +1,4 @@
-import Task from "./app/store/features/Task/Task";
+import Task from "./redux/features/Task/Task";
 
 function App() {
   return (
