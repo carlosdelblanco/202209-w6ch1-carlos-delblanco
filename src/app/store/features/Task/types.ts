@@ -1,7 +1,9 @@
-interface types {
+export interface Tasks {
   id: number;
   name: string;
   done: boolean;
 }
 
-export default types;
+export interface TaskState {
+  list: Tasks[];
+}
