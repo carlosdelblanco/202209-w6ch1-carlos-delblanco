@@ -1,4 +1,4 @@
-export interface Tasks {
+interface Tasks {
   id: number;
   name: string;
   done: boolean;
@@ -7,3 +7,5 @@ export interface Tasks {
 export interface TaskState {
   list: Tasks[];
 }
+
+export default Tasks;
